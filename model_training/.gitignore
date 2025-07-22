@@ -1,0 +1,32 @@
+# Ignore model weights and large files
+/models/
+*.h5
+*.pth
+*.pkl
+
+# Ignore dataset folder
+data/
+
+# Ignore logs related to model training
+*.log
+
+# Ignore Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore virtual environment folders
+venv/
+env/
+
+# Ignore environment files for model-specific configurations
+*.env
+
+# macOS system files
+.DS_Store
+
+# JetBrains IDE project files
+.idea/
+
+# Ignore Jupyter Notebook checkpoints
+notebook/checkpoints/
