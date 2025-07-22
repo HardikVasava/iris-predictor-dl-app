@@ -28,5 +28,5 @@ env/
 # JetBrains IDE project files
 .idea/
 
-# Ignore Jupyter Notebook checkpoints
-notebook/checkpoints/
+# Ignore all Jupyter Notebook checkpoints
+**/.ipynb_checkpoints/
