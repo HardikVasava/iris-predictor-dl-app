@@ -17,7 +17,7 @@ function App() {
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
-    // Allow only float values
+    
     if (value === '' || !isNaN(value)) {
       setFormData((prevState) => ({
         ...prevState,
@@ -29,7 +29,7 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Ensure all values are positive and floats
+    
     if (Object.values(formData).some(value => value <= 0 || value === '')) {
       setError('Please enter valid positive float values.');
       return;
