@@ -31,9 +31,9 @@ data = load_iris()
 
 - **model_training/**  
   Contains the trained model file, scaler, and Jupyter notebook for training and exploration.  
-- **backend/**  
+- **server/**  
   Flask API source code for serving predictions.  
-- **frontend/**  
+- **client/**  
   React application for user interaction and visualization.  
 - **data/**  
   Contains the original Iris dataset file.  
