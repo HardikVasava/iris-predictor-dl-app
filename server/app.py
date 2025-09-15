@@ -5,8 +5,8 @@ import joblib
 import numpy as np
 import pandas as pd
 
-model = load_model('../model_training/models/iris_model.keras')
-scaler = joblib.load('../model_training/models/iris_scaler.pkl')
+model = load_model('../model-training/models/iris_model.keras')
+scaler = joblib.load('../model-training/models/iris_scaler.pkl')
 
 app = Flask(__name__)
 CORS(app)
